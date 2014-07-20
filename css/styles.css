@@ -5,13 +5,13 @@ html, body {
 }
 
 footer, .main {
-  position: absolute;
+  position:absolute;
   right:20%;
   left:20%;
 }
 
 .main {
-  top:160px;
+  top:20%;
   text-align:center;
 }
 
@@ -25,7 +25,9 @@ footer {
 }
 
 .mainLinks li {
-  display:inline-block
+  display:inline-block;
+}
+
 a {
   text-decoration: none;
 }
@@ -34,6 +36,7 @@ a:hover {
   text-decoration: underline;
   color: black;
 }
+
 .pageLinks {
   overflow: hidden;
   position:absolute;
@@ -70,4 +73,22 @@ a:hover {
 
 .footerLinkImg {
   width:35px;
+}
+
+@media all and (min-height:400px) {
+  .main {
+    top:30%;
+  }
+}
+
+@media all and (min-height:500px) {
+  .main {
+    top:35%;
+  }
+}
+
+@media all and (min-height:600px) {
+  .main {
+    top:37%;
+  }
 }
