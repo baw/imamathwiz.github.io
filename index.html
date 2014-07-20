@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Brian Weiser</title>
+        <meta charset="UTF-8">
+        <title>Brian Weiser - Web Developer</title>
         
+        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -11,10 +17,63 @@
         
           ga('create', 'UA-52970279-1', 'auto');
           ga('send', 'pageview');
-        
         </script>
     </head>
     <body>
-        My future site...
+        
+        <div class="main">
+          <h1>Brian Weiser</h1>
+          <h2>Web Developer</h2>
+          <ul class="mainLinks">
+            <li>
+              <a id="projectsLink" href="#projects">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a id="resumeLink" href="#resume">
+                Resume
+              </a>
+            </li>
+          </ul>
+          
+          <div class="projects pageLinks">
+            <h1>Projects</h1>
+            <p>Check back soon!</p>
+          </div>
+          
+          <div class="resume pageLinks">
+            <h1>Resume</h1>
+            <p>Check out my
+              <a href="https://www.linkedin.com/in/brianandrewweiser">LinkedIn Page</a>!
+            </p>
+            <p>
+              (I'll add info here soon.)
+            </p>
+          </div>
+        </div>
+        
+        <footer>
+          <ul class="socialLinks">
+            <li>
+              <a id="contact" href="">
+                <img class="footerLinkImg contact" src="img/contact_icon.png">
+                <div class="text">Contact</div>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/imamathwiz">
+                <img class="footerLinkImg github" src="img/github_icon.png">
+                <div class="text">Github</div>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/brianandrewweiser">
+                <img class="footerLinkImg linkedin" src="img/linkedin_icon.png">
+                <div class="text">LinkedIn</div>
+              </a>
+            </li>
+          </ul>
+        </footer>
     </body>
 </html>
