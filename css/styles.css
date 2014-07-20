@@ -74,18 +74,19 @@ a:hover {
   padding-left: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-image: url(../img/image_sprite.png);
 }
 
 .contact {
-  background-image:url(../img/contact_icon.png);
+  background-position: -10px -10px;
 }
 
 .github {
-  background-image:url(../img/github_icon.png);
+  background-position: -10px -65px;
 }
 
 .linkedin {
-  background-image:url(../img/linkedin_icon.png);
+  background-position: -10px -120px;
 }
 
 
