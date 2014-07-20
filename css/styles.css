@@ -26,6 +26,14 @@ footer {
 
 .mainLinks li {
   display:inline-block
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
 .pageLinks {
   overflow: hidden;
   position:absolute;
@@ -53,6 +61,11 @@ footer {
   display:inline-block;
   position: relative;
   top:-10px;
+}
+
+.socialLinks a:hover .text {
+  text-decoration: underline;
+  color: black;
 }
 
 .footerLinkImg {
