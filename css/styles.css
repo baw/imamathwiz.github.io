@@ -16,7 +16,7 @@ footer, .main {
 }
 
 footer {
-  bottom:10px;
+  bottom:20px;
 }
 
 .mainLinks {
@@ -46,7 +46,7 @@ a:hover {
 
 .socialLinks {
   list-style:none;
-  width:318px;
+  width:322px;
   padding-left:0;
   margin:auto;
 }
@@ -62,8 +62,6 @@ a:hover {
 
 .socialLinks .text {
   display:inline-block;
-  position: relative;
-  top:-10px;
 }
 
 .socialLinks a:hover .text {
@@ -72,8 +70,24 @@ a:hover {
 }
 
 .footerLinkImg {
-  width:35px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
+.contact {
+  background-image:url(../img/contact_icon.png);
+}
+
+.github {
+  background-image:url(../img/github_icon.png);
+}
+
+.linkedin {
+  background-image:url(../img/linkedin_icon.png);
+}
+
 
 @media all and (min-height:400px) {
   .main {
