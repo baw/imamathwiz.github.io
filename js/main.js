@@ -8,8 +8,15 @@
     var linkSelector = "#projectsLink, #resumeLink";
     var clickMove = "click.move";
     $(linkSelector).on(clickMove, function (event) {
+      var projectsHeight = $(".projects").height();
+      var resumeHeight = $(".resume").height();
+      
+      var height = projectsHeight > resumeHeight ? projectsHeight : resumeHeight;
+      
+      
       $(".main").animate({
-        top: 0
+        top: 0,
+        "min-height": height + 200
       });
       
       $(linkSelector).off(clickMove);
