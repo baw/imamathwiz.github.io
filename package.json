@@ -4,7 +4,8 @@
   "description": "My little website",
   "main": "index.js",
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "grunt-html-build": "^0.3.2"
   },
   "repository": {
     "type": "git",
