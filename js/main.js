@@ -37,7 +37,7 @@
       }
       
       $(showDiv).animate({ top: "150px"   });
-      $(hideDiv).animate({ top: "-1000px" });
+      $(hideDiv).animate({ top: "-1500px" });
     });
   };
 
